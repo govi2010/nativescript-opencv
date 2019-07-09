@@ -1,6 +1,16 @@
+import { Common } from './opencv.common';
+
+
+
+
 import { CvCameraPreviewBase } from './opencv.common';
 import { Color } from 'tns-core-modules/color/color';
 import { ImageSource } from 'tns-core-modules/image-source/image-source';
+
+export class Opencv extends Common {
+
+}
+
 
 import CVMat = org.bytedeco.javacpp.opencv_core.Mat;
 import CVScalar = org.opencv.core.Scalar;

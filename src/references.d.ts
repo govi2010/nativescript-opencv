@@ -1,2 +1,3 @@
-/// <reference path="./typings/android.d.ts" />
-/// <reference path="./typings/ios.d.ts" />
+/// <reference path="./node_modules/tns-platform-declarations/ios.d.ts" />
+/// <reference path="./node_modules/tns-platform-declarations/android.d.ts" />
+/// <reference path="./node_modules/tns-platform-declarations/android/androidx-28.d.ts" />
